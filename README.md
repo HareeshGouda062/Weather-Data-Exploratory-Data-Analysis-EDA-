@@ -115,5 +115,5 @@ Demonstrated end-to-end EDA workflow including data cleaning, visualization, sta
 * Pair Plots
 * Correlation Heatmaps
 * Line Charts
-✔ Bar Charts
-✔ Cross-Tabulation Analysis
+* Bar Charts
+* Cross-Tabulation Analysis
