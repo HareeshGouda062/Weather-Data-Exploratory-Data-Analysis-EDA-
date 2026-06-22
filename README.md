@@ -107,13 +107,13 @@ Identified trends, anomalies, and relationships among environmental variables.
 Demonstrated end-to-end EDA workflow including data cleaning, visualization, statistical analysis, and insight generation.
 
  Visualizations Included
-✔ Box Plots
-✔ Histograms
-✔ KDE Plots
-✔ Violin Plots
-✔ Scatter Plots
-✔ Pair Plots
-✔ Correlation Heatmaps
-✔ Line Charts
+* Box Plots
+* Histograms
+* KDE Plots
+* Violin Plots
+* Scatter Plots
+* Pair Plots
+* Correlation Heatmaps
+* Line Charts
 ✔ Bar Charts
 ✔ Cross-Tabulation Analysis
