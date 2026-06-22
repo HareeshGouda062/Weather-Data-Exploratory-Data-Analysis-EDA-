@@ -18,16 +18,16 @@ The objective is to clean the data, identify patterns, analyze weather-related v
 * Matplotlib
 * Seaborn
 
- Dataset Features
-Feature->Description
-Ozone->Ozone concentration level
-Solar->Solar radiation measurement
-Wind->Wind speed
-Temp->Temperature
-Weather->Weather condition category
-Month->Month of observation
-Day->Day of observation
-Year->Year of observation
+Dataset Features
+* Feature->Description
+* Ozone->Ozone concentration level
+* Solar->Solar radiation measurement
+* Wind->Wind speed
+* Temp->Temperature
+* Weather->Weather condition category
+* Month->Month of observation
+* Day->Day of observation
+* Year->Year of observation
 
  Data Cleaning & Preprocessing
 * Loaded and inspected the dataset structure.
@@ -38,16 +38,16 @@ Year->Year of observation
 * Created a Date column from Year, Month, and Day fields.
 * Removed unnecessary columns.
 
- Exploratory Data Analysis
+Exploratory Data Analysis
 1. Univariate Analysis
-  Performed analysis on individual variables to understand their distributions.
+   * Performed analysis on individual variables to understand their distributions.
 
 Outlier Detection
-  Identified outliers in Ozone concentration using box plots.
+   * Identified outliers in Ozone concentration using box plots.
 
 Categorical Analysis
-  Analyzed frequency distribution of Weather conditions.
-  Examined monthly observation counts.
+   * Analyzed frequency distribution of Weather conditions.
+   * Examined monthly observation counts.
   
 Numerical Analysis
 *  Calculated variance and skewness of numerical features.
@@ -58,53 +58,53 @@ Numerical Analysis
   *    Box Plot
     
 2. Bivariate Analysis
-  Ozone vs Temperature
-    Explored the relationship between Ozone concentration and Temperature using scatter plots.
-    Investigated potential correlations between the two variables.
+  * Ozone vs Temperature
+    * Explored the relationship between Ozone concentration and Temperature using scatter plots.
+    * Investigated potential correlations between the two variables.
 
-  Weather vs Ozone
-    Compared Ozone distributions across different weather conditions using box plots.
+  * Weather vs Ozone
+    * Compared Ozone distributions across different weather conditions using box plots.
     
-  Month vs Weather
-    Used cross-tabulation to analyze weather occurrence patterns across months.
+  * Month vs Weather
+    * Used cross-tabulation to analyze weather occurrence patterns across months.
 
 3. Multivariate Analysis
-    Weather Impact Analysis
-      Visualized the relationship between Ozone and Temperature across weather conditions using color-coded scatter plots.
+    * Weather Impact Analysis
+      * Visualized the relationship between Ozone and Temperature across weather conditions using color-coded scatter plots.
 
-  Pair Plot Analysis
-    Examined pairwise relationships among numerical weather variables.
-    Identified correlations, clusters, and variable interactions.
+  * Pair Plot Analysis
+    * Examined pairwise relationships among numerical weather variables.
+    * Identified correlations, clusters, and variable interactions.
 
   Correlation Analysis
-    Generated a heatmap to analyze relationships between:
-    Ozone
-    Solar Radiation
-    Wind Speed
-    Temperature
+    * Generated a heatmap to analyze relationships between:
+    * Ozone
+    * Solar Radiation
+    * Wind Speed
+    * Temperature
 
 4. Time-Series Analysis
-  Created line plots to track Ozone concentration over time.
-  Analyzed how weather conditions influence Ozone trends across dates.
+  * Created line plots to track Ozone concentration over time.
+  * Analyzed how weather conditions influence Ozone trends across dates.
 
 5. Statistical Analysis
-Performed grouped statistical calculations to answer business-style questions:
-Average numerical measurements during sunny weather.
-Average temperature during cloudy weather in June.
-Maximum wind speed during sunny weather in July.
-Weather distribution across months.
+* Performed grouped statistical calculations to answer business-style questions:
+* Average numerical measurements during sunny weather.
+* Average temperature during cloudy weather in June.
+* Maximum wind speed during sunny weather in July.
+* Weather distribution across months.
 
- Key Insights
-Ozone levels show varying relationships with temperature under different weather conditions.
-Weather patterns differ significantly across months.
-Numerical weather variables exhibit varying degrees of skewness and dispersion.
-Correlation analysis reveals relationships among atmospheric factors that influence air quality.
-Outlier detection highlights unusual environmental observations requiring further investigation.
+Key Insights
+* Ozone levels show varying relationships with temperature under different weather conditions.
+* Weather patterns differ significantly across months.
+* Numerical weather variables exhibit varying degrees of skewness and dispersion.
+* Correlation analysis reveals relationships among atmospheric factors that influence air quality.
+* Outlier detection highlights unusual environmental observations requiring further investigation.
 
- Project Outcomes
-Improved understanding of weather data characteristics.
-Identified trends, anomalies, and relationships among environmental variables.
-Demonstrated end-to-end EDA workflow including data cleaning, visualization, statistical analysis, and insight generation.
+Project Outcomes
+* Improved understanding of weather data characteristics.
+* Identified trends, anomalies, and relationships among environmental variables.
+* Demonstrated end-to-end EDA workflow including data cleaning, visualization, statistical analysis, and insight generation.
 
  Visualizations Included
 * Box Plots
